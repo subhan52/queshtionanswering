@@ -27,3 +27,9 @@ body{
 .buttonsrow{
     margin: 2rem;
 }
+
+.Answer {
+    color: gold;
+    border: black;
+    border-radius: 15px;
+}

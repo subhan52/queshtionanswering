@@ -26,7 +26,9 @@ function Answer() {
           Predict Answer
         </button>
         <br />
-        {Answertext}
+        <div className='Answer'>
+          {Answertext}
+        </div>
       </div>
     </>
   )
