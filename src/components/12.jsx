@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
-
-
 function QueshtionInitial( )  {
   console.log("queshtion initial");
   return "This is your queshtion";

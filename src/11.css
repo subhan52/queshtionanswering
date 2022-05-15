@@ -1,0 +1,39 @@
+body{
+    /* background: rgb(34,193,195); */
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 96%);
+}
+
+.textofpara{
+    padding: 2rem;
+}
+
+.queshtionarea{
+    padding: 2rem;
+    width: 70vw;
+}
+
+.AnswerText{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+
+.predict{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.buttonsrow{
+    margin: 2rem;
+}
+
+.Answer {
+    color: gold;
+    border: black;
+    border-radius: 15px;
+}
+
+.navabar-nav{
+    background-color: black;
+    color: aliceblue;
+}

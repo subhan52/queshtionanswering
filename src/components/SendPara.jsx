@@ -1,13 +1,32 @@
 import React from "react";
 import axios from "axios";
-function TextOfPara() {
+
+// var axios = require("axios");
+
+function SendPara() {
   const sendPara = () => {
     let para = document.getElementById("transcribed-para");
-    console.log(para.value);
-    axios
-      .post("http://127.0.0.1:8000/init_para/" + para.value)
-      .then((response) => {
-        console.log(response);
+    // console.log(para.value);
+
+    var data = JSON.stringify({
+      paragraph: para.value,
+    });
+
+    var config = {
+      method: "post",
+      url: "http://127.0.0.1:8000/init_para/",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      data: data,
+    };
+
+    axios(config)
+      .then(function (response) {
+        console.log(JSON.stringify(response.data));
+      })
+      .catch(function (error) {
+        console.log(error);
       });
   };
 
@@ -35,4 +54,4 @@ function TextOfPara() {
   );
 }
 
-export default TextOfPara;
+export default SendPara;
