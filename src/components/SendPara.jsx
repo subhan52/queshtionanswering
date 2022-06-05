@@ -34,7 +34,7 @@ function SendPara() {
     <div className="textofpara">
       <div className="form-group">
         <textarea
-          className="form-control"
+          className="form-control tarea"
           id="transcribed-para"
           cols="30"
           rows="10"

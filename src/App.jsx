@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Landing />}></Route>
         <Route exact path="/videopath" element={<Videopath />}></Route>
-        <Route exact path="/videoRecorder" element={<VideoRecorder />}></Route>
+        {/* <Route exact path="/videoRecorder" element={<VideoRecorder />}></Route> */}
         {/* <Route exact path="/" element={<Test />}></Route> */}
         <Route path="/videotoaudio" element={<GetvideoText/>}></Route>
         <Route path="/queshtionrec" element={<QueshtionRec/>}></Route>

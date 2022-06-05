@@ -12,9 +12,6 @@ function Landing() {
         <br />
         <br />
         <button className="btn btn-light">
-          <a href="/videoRecorder"> Capture video </a>
-        </button>
-        <button className="btn btn-light">
           <a href="/videopath"> Use a pre saved video </a>
         </button>
       </div>

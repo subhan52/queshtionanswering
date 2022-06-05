@@ -15,7 +15,7 @@ function Answer() {
     console.log(questionarea.value);
 
     // .then for promise and this works to get the data
-    await axios
+     axios
       .get("http://127.0.0.1:8000/Answerof/" + questionarea.value)
       .then((response) => {
         console.log(response);

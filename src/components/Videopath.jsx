@@ -25,6 +25,7 @@ function Videopath() {
 
       let instruction = document.getElementById('instruction');
       instruction.innerHTML="please wait after sending the video";
+      alert("please wait after sending the video");
     };
 
   return (
@@ -62,31 +63,3 @@ function Videopath() {
 }
 
 export default Videopath;
-
-// import React from 'react'
-
-// function Videopath() {
-//   return (
-//     <div>
-//       <label className="form-label"><h2>Input Video:</h2></label>
-//       <input className="form-control form-control-lg" id="videoFilePath" type="file" accept='.mp4 , .mp3' />
-//       <br />
-
-//       <button className="btn btn-dark" type="submit">Submit video to transcribe</button>
-//     </div>
-//   )
-// }
-
-// export default Videopath
-
-// <div>
-//   Videopath
-//   <div id="uf-uploader">
-//     <form class="ufzone needsclick dz-clickable" id="upload-window">
-//       <div class="dz-message needsclick">
-//         Drop files here or click to upload files <br />(Max 10 files at once, 5GB per file)
-//       </div>
-//       <input type="file" label = "input video here"/>
-//     </form>
-//   </div>
-// </div>
